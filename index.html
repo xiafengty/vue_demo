@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5, maximum-scale=0.5, minimum-scale=0.5, user-scalable=no viewport-fit=cover">
+    <link rel="stylesheet" href="/static/css/reset.css" />
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_827506_32d8s1xpm67.css" />
+    <title>严选</title>
+    <link rel="icon" href="static/images/home/advert1.png"/>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+<script>
+  let width = document.documentElement.clientWidth;
+
+  let tartgetW = 750;
+
+
+  let scale　=　width/tartgetW;
+
+
+  let metaNode = document.querySelector('meta[name="viewport"]')
+  metaNode.setAttribute('content','initial-scale='+ scale +',user-scalable=no, maximum-scale=0.5, minimum-scale=0.5,');
+</script>
+</html>
+
